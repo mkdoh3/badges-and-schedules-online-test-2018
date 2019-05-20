@@ -31,7 +31,7 @@ end
 # end
 
 def printer(attendees)
-  
+  badge_maker(attendees).each {|badge| puts badge}
 end
 
 
