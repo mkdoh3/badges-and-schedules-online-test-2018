@@ -30,6 +30,9 @@ end
 # room_assignments
 # end
 
+def printer(attendees)
+end
+
 
 
 
