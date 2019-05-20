@@ -11,7 +11,7 @@ end
 # end
 
 def batch_badge_creator(attendees)
-  attendees.collect do |attendee| 
+  attendees.map do |attendee| 
     badge_maker(attendee)
   end
 end
